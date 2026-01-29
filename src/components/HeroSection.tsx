@@ -1,6 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
-import profileImage from "@/assets/profile-placeholder.jpg";
+import profileImage from "@/assets/jawad-profile.jpg";
 
 const HeroSection = () => {
   return (
