@@ -17,9 +17,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© {currentYear} Jawad Asif. Built with</span>
-            <Heart size={14} className="text-primary fill-primary" />
-            <span>and React</span>
+            <span>© {currentYear} Jawad Asif</span>
           </div>
 
           {/* Quick Links */}

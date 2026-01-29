@@ -1,13 +1,18 @@
-import { GraduationCap, Code, Cloud, Rocket } from "lucide-react";
+import { GraduationCap, Code, Cloud, Rocket, Brain } from "lucide-react";
 
 const stats = [
   { value: "10+", label: "Projects Completed" },
-  { value: "15+", label: "Technologies Used" },
+  { value: "20+", label: "Technologies Used" },
   { value: "2+", label: "Years Experience" },
   { value: "3+", label: "Internships" },
 ];
 
 const highlights = [
+  {
+    icon: Brain,
+    title: "AI/ML Development",
+    description: "Building intelligent applications with machine learning, data analysis, and predictive modeling using Python and TensorFlow.",
+  },
   {
     icon: Code,
     title: "Full-Stack Development",
@@ -21,7 +26,7 @@ const highlights = [
   {
     icon: Rocket,
     title: "Problem Solver",
-    description: "Passionate about solving complex problems with elegant, scalable solutions.",
+    description: "Passionate about solving complex problems with elegant, scalable solutions combining AI and web technologies.",
   },
 ];
 
@@ -64,14 +69,15 @@ const AboutSection = () => {
 
             <p className="text-muted-foreground leading-relaxed">
               I'm Jawad Asif, an IT undergraduate and full-stack web developer with a passion for creating 
-              scalable, user-centric applications. I specialize in React, Node.js, and DevOps practices, 
-              bringing ideas to life with clean code and modern infrastructure.
+              intelligent, scalable applications. I specialize in AI/ML, React, Node.js, and DevOps practices, 
+              bringing ideas to life with clean code, machine learning models, and modern infrastructure.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              My interests span across cloud computing, blockchain technology, and microservices architecture. 
-              I thrive in collaborative environments and am always eager to learn emerging technologies 
-              that push the boundaries of what's possible on the web.
+              My interests span across artificial intelligence, machine learning, cloud computing, blockchain technology, 
+              and data science. My final year project, <strong className="text-foreground">FundChain</strong>, combines 
+              blockchain with ML-powered risk assessment for micro-investments. I thrive in collaborative environments 
+              and am always eager to learn emerging technologies in AI and web development.
             </p>
           </div>
 

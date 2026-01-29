@@ -1,4 +1,4 @@
-import { Code, Server, Cloud, Wrench, Users } from "lucide-react";
+import { Code, Server, Cloud, Wrench, Users, Brain } from "lucide-react";
 
 const skillCategories = [
   {
@@ -12,6 +12,11 @@ const skillCategories = [
     skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "JWT Authentication", "GraphQL"],
   },
   {
+    icon: Brain,
+    title: "AI/ML & Data Science",
+    skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Machine Learning"],
+  },
+  {
     icon: Cloud,
     title: "DevOps & Cloud",
     skills: ["Docker", "GitLab CI/CD", "AWS EC2", "AWS S3", "Kubernetes", "Linux"],
@@ -19,7 +24,7 @@ const skillCategories = [
   {
     icon: Wrench,
     title: "Tools",
-    skills: ["VS Code", "Visual Studio", "GitHub", "GitLab", "AWS CLI", "Postman", "Figma"],
+    skills: ["VS Code", "Visual Studio", "GitHub", "GitLab", "AWS CLI", "Postman", "Figma", "Jupyter"],
   },
   {
     icon: Users,

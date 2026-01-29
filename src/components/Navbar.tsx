@@ -34,9 +34,14 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-lg font-bold text-foreground">JA</span>
+            <div className="w-10 h-10 rounded-full overflow-hidden bg-gradient-to-br from-primary to-secondary p-0.5">
+              <img
+                src="https://i.postimg.cc/fLmpBr7J/Whats-App-Image-2026-01-29-at-9-39-17-PM.jpg"
+                alt="Jawad Asif"
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
+            <span className="text-lg font-semibold">jawadasif</span>
           </a>
 
           {/* Desktop Navigation */}

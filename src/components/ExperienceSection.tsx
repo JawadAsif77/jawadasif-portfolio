@@ -2,6 +2,18 @@ import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    title: "AI/ML & Blockchain Developer - Final Year Project",
+    company: "FundChain (Academic Project)",
+    location: "Air University, Islamabad",
+    period: "January 2026 – Present",
+    description: [
+      "Developing blockchain-based micro-investment platform using Solana and Web3 technologies",
+      "Implementing ML models for risk assessment and investment predictions using Python and TensorFlow",
+      "Building full-stack application with React, Node.js, and MongoDB for user management",
+      "Integrating smart contracts for transparent and secure fund management",
+    ],
+  },
+  {
     title: "Digital Marketing & Lead Generation",
     company: "MGC Developments",
     location: "Islamabad",

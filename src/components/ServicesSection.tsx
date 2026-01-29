@@ -5,7 +5,8 @@ import {
   GitBranch, 
   Cloud, 
   Blocks,
-  TrendingUp
+  TrendingUp,
+  Brain
 } from "lucide-react";
 
 const services = [
@@ -13,6 +14,11 @@ const services = [
     icon: Layout,
     title: "Full-Stack Web Development",
     description: "End-to-end web application development from concept to deployment, using modern frameworks and best practices.",
+  },
+  {
+    icon: Brain,
+    title: "AI/ML Solutions",
+    description: "Machine learning model development, data analysis, and AI integration for intelligent applications using Python, TensorFlow, and scikit-learn.",
   },
   {
     icon: Code,

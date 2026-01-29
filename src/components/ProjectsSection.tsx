@@ -3,20 +3,28 @@ import { Button } from "./ui/button";
 
 const projects = [
   {
-    title: "FundChain",
+    title: "FundChain - Final Year Project",
     description:
-      "A blockchain-based micro-investment platform built on Solana, featuring wallet integration, referral systems, and transparent fund management.",
-    technologies: ["Solana", "React", "Web3.js", "Node.js", "MongoDB"],
-    highlights: ["Blockchain integration", "Wallet connectivity", "Referral rewards"],
+      "A blockchain-based micro-investment platform built on Solana, featuring wallet integration, ML-powered risk assessment, referral systems, and transparent fund management. Final Year Project showcasing full-stack blockchain development.",
+    technologies: ["Solana", "React", "Web3.js", "Node.js", "MongoDB", "Python", "ML Models"],
+    highlights: ["Final Year Project", "Blockchain + AI", "Smart Contracts", "Risk Analysis"],
     color: "from-purple-500/20 to-pink-500/20",
+  },
+  {
+    title: "AI-Powered Predictive Analytics Dashboard",
+    description:
+      "Machine learning dashboard for data visualization and predictive modeling using Python, TensorFlow, and React. Features real-time data processing and model training.",
+    technologies: ["Python", "TensorFlow", "React", "Pandas", "Flask", "Chart.js"],
+    highlights: ["ML Integration", "Real-time predictions", "Data visualization"],
+    color: "from-blue-500/20 to-cyan-500/20",
   },
   {
     title: "MERN Real-Time Scheduling App",
     description:
       "A comprehensive scheduling application with secure authentication, role-based access control, and real-time updates.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
-    highlights: ["40% booking efficiency improvement", "Role-based access", "Real-time sync"],
-    color: "from-blue-500/20 to-cyan-500/20",
+    highlights: ["40% booking efficiency", "Role-based access", "Real-time sync"],
+    color: "from-green-500/20 to-teal-500/20",
   },
   {
     title: "Web with DevOps Pipeline",
@@ -93,24 +101,12 @@ const ProjectsSection = () => {
                 </div>
 
                 {/* Technologies */}
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
                     <span key={i} className="skill-tag text-xs">
                       {tech}
                     </span>
                   ))}
-                </div>
-
-                {/* Actions */}
-                <div className="flex items-center gap-3">
-                  <Button variant="outline" size="sm" className="gap-2">
-                    <Github size={16} />
-                    Code
-                  </Button>
-                  <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground hover:text-primary">
-                    View Details
-                    <ArrowRight size={16} />
-                  </Button>
                 </div>
               </div>
             </div>

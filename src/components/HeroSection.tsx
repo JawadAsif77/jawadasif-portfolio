@@ -1,6 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
-const profileImage = "https://i.postimg.cc/BbsMmwbb/Whats-App-Image-2026-01-29-at-8-39-02-PM.jpg";
+const profileImage = "https://i.postimg.cc/fLmpBr7J/Whats-App-Image-2026-01-29-at-9-39-17-PM.jpg";
 
 const HeroSection = () => {
   return (
@@ -34,11 +34,12 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-6 animate-fade-in-up delay-200">
-          Full-Stack Web Developer | React & DevOps | Building scalable, user-centric web applications with modern technologies
+          Full-Stack Web Developer | AI/ML Enthusiast | React & DevOps | Building intelligent, scalable web applications with modern technologies and machine learning
         </p>
 
         {/* Role Tags */}
         <div className="flex flex-wrap justify-center gap-3 mb-8 animate-fade-in-up delay-300">
+          <span className="skill-tag">AI & Machine Learning</span>
           <span className="skill-tag">React & Next.js</span>
           <span className="skill-tag">Node.js & Express</span>
           <span className="skill-tag">DevOps & CI/CD</span>
