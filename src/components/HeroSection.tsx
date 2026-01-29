@@ -1,6 +1,6 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "./ui/button";
-import profileImage from "@/assets/jawad-profile.jpg";
+const profileImage = "https://i.postimg.cc/BbsMmwbb/Whats-App-Image-2026-01-29-at-8-39-02-PM.jpg";
 
 const HeroSection = () => {
   return (
