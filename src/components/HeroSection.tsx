@@ -34,16 +34,16 @@ const HeroSection = () => {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-6 animate-fade-in-up delay-200">
-          Full-Stack Web Developer | AI/ML Enthusiast | React & DevOps | Building intelligent, scalable web applications with modern technologies and machine learning
+          IT Student | AI/ML Researcher | Exploring intelligent systems, data mining, and blockchain technology through innovative research and applications
         </p>
 
         {/* Role Tags */}
         <div className="flex flex-wrap justify-center gap-3 mb-8 animate-fade-in-up delay-300">
-          <span className="skill-tag">AI & Machine Learning</span>
-          <span className="skill-tag">React & Next.js</span>
-          <span className="skill-tag">Node.js & Express</span>
-          <span className="skill-tag">DevOps & CI/CD</span>
-          <span className="skill-tag">AWS Cloud</span>
+          <span className="skill-tag">Machine Learning Research</span>
+          <span className="skill-tag">Data Mining & Analysis</span>
+          <span className="skill-tag">NLP & Sentiment Analysis</span>
+          <span className="skill-tag">Blockchain Technology</span>
+          <span className="skill-tag">Full-Stack Development</span>
         </div>
 
         {/* CTA Buttons */}

@@ -61,11 +61,8 @@ const ServicesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="section-title">
-            My <span className="gradient-text">Services</span>
+            My <span className="gradient-text">Expertise</span>
           </h2>
-          <p className="section-subtitle mx-auto">
-            What I can help you build
-          </p>
         </div>
 
         {/* Services Grid */}

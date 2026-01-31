@@ -1,10 +1,10 @@
 import { GraduationCap, Code, Cloud, Rocket, Brain } from "lucide-react";
 
 const stats = [
-  { value: "10+", label: "Projects Completed" },
-  { value: "20+", label: "Technologies Used" },
-  { value: "2+", label: "Years Experience" },
-  { value: "3+", label: "Internships" },
+  { value: "3.5+", label: "CGPA" },
+  { value: "10+", label: "Research Projects" },
+  { value: "20+", label: "Technical Skills" },
+  { value: "3+", label: "Industry Internships" },
 ];
 
 const highlights = [
@@ -43,7 +43,7 @@ const AboutSection = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="section-subtitle mx-auto">
-            A results-driven developer passionate about building impactful digital experiences
+            Research-oriented student with strong foundation in artificial intelligence and machine learning
           </p>
         </div>
 
@@ -64,20 +64,27 @@ const AboutSection = () => {
                 <strong className="text-foreground">Bachelor of Science in Information Technology</strong>
                 <br />
                 2022 – 2026
+                <br />
+                <span className="text-xs">Relevant Coursework: Web Technologies, Virtual Systems and Services, DSA, Operating Systems, DevOps</span>
               </p>
             </div>
 
             <p className="text-muted-foreground leading-relaxed">
-              I'm Jawad Asif, an IT undergraduate and full-stack web developer with a passion for creating 
-              intelligent, scalable applications. I specialize in AI/ML, React, Node.js, and DevOps practices, 
-              bringing ideas to life with clean code, machine learning models, and modern infrastructure.
+              I'm Jawad Asif, a final-year Computer Science undergraduate at Air University Islamabad with a strong 
+              academic foundation in artificial intelligence and machine learning. My research interests include 
+              natural language processing, data mining, blockchain technology, and their applications in solving 
+              real-world problems. I am passionate about advancing the field through rigorous research and innovative 
+              system design.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              My interests span across artificial intelligence, machine learning, cloud computing, blockchain technology, 
-              and data science. My final year project, <strong className="text-foreground">FundChain</strong>, combines 
-              blockchain with ML-powered risk assessment for micro-investments. I thrive in collaborative environments 
-              and am always eager to learn emerging technologies in AI and web development.
+              <strong className="text-foreground">Research Interests:</strong> Machine Learning, Natural Language Processing, 
+              Data Mining & Feature Selection, Blockchain Technology, Sentiment Analysis, Predictive Analytics, and Intelligent Systems Design.
+              <br /><br />
+              My capstone project, <strong className="text-foreground">FundChain</strong>, demonstrates interdisciplinary research 
+              integrating blockchain technology with ML-powered risk assessment models. I have developed multiple academic projects 
+              in sentiment analysis, attribute reduction, and predictive modeling, showcasing both theoretical understanding and 
+              practical implementation skills essential for advanced research.
             </p>
           </div>
 

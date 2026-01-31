@@ -1,20 +1,25 @@
-import { Code, Server, Cloud, Wrench, Users, Brain } from "lucide-react";
+import { Code, Server, Cloud, Wrench, Users, Brain, BookOpen } from "lucide-react";
 
 const skillCategories = [
   {
+    icon: Brain,
+    title: "AI/ML & Data Science",
+    skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "NLP", "Data Mining", "Feature Selection"],
+  },
+  {
+    icon: BookOpen,
+    title: "Research & Academic",
+    skills: ["Machine Learning Research", "Data Analysis", "Statistical Modeling", "Algorithm Design", "Research Methodology", "Technical Writing"],
+  },
+  {
     icon: Code,
-    title: "Frontend",
+    title: "Frontend Development",
     skills: ["React.js", "Next.js", "Redux", "TypeScript", "Tailwind CSS", "Responsive UI", "REST APIs"],
   },
   {
     icon: Server,
-    title: "Backend",
+    title: "Backend Development",
     skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "JWT Authentication", "GraphQL"],
-  },
-  {
-    icon: Brain,
-    title: "AI/ML & Data Science",
-    skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Data Analysis", "Machine Learning"],
   },
   {
     icon: Cloud,
@@ -23,21 +28,16 @@ const skillCategories = [
   },
   {
     icon: Wrench,
-    title: "Tools",
-    skills: ["VS Code", "Visual Studio", "GitHub", "GitLab", "AWS CLI", "Postman", "Figma", "Jupyter"],
-  },
-  {
-    icon: Users,
-    title: "Other",
-    skills: ["Blockchain (Solana)", "Microservices", "Agile/Scrum", "REST Architecture", "Web3"],
+    title: "Tools & Technologies",
+    skills: ["Jupyter Notebook", "VS Code", "GitHub", "GitLab", "LaTeX", "MATLAB", "Postman"],
   },
 ];
 
 const softSkills = [
-  "Communication",
-  "Teamwork",
-  "Adaptability",
-  "Leadership",
+  "Research & Analysis",
+  "Critical Thinking",
+  "Academic Writing",
+  "Problem Solving",
   "Problem Solving",
   "Time Management",
 ];
