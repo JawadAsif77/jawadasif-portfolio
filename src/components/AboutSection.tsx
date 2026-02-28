@@ -1,7 +1,6 @@
 import { GraduationCap, Code, Cloud, Rocket, Brain } from "lucide-react";
 
 const stats = [
-  { value: "3.5+", label: "CGPA" },
   { value: "10+", label: "Research Projects" },
   { value: "20+", label: "Technical Skills" },
   { value: "3+", label: "Industry Internships" },
@@ -110,7 +109,7 @@ const AboutSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
+        <div className="grid grid-cols-3 gap-4 mt-12 max-w-4xl mx-auto">
           {stats.map((stat, index) => (
             <div
               key={index}

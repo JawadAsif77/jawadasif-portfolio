@@ -26,7 +26,7 @@ const experiences = [
   },
   {
     title: "MERN Stack Intern",
-    company: "Algoryte",
+    company: "Convo Solutions",
     location: "Remote",
     period: "June 2024 – August 2024",
     description: [

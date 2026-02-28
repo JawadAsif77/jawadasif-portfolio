@@ -44,7 +44,7 @@ const softSkills = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="relative py-20 overflow-hidden">
+    <section id="skills" className="relative py-12 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 grid-background opacity-20" />
       <div className="glow-blob glow-blob-primary absolute bottom-0 left-1/4 opacity-30" />
